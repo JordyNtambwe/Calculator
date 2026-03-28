@@ -1,0 +1,3 @@
+## Calculator
+
+This project is called Calculator and this is the 5th and final project created within the foundations section through my journey across The Odin Project curriculum. As the title says, this project consists of creating an on-screen calculator that contains all of the basic math operators such as addition, substraction, multiplication, and division that one typically sees on a regular calculator using all the tools learn up until this point such as HTML, CSS, and Javascript.
