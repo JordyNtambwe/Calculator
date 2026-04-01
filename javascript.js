@@ -18,4 +18,18 @@ let num1 = '';
 let operator = '';
 let num2 = '';
 
-
+function operate (operator, num1, num2) {
+  const a = Number(num1);
+  const b = Number(num2);
+  if (operator === '+') {
+    return addition(a, b);
+  } else if (operator === '-') {
+    return subtraction(a, b);
+  } else if (operator === '*') {
+    return multiplication(a, b);
+  } else if (operator === '/') {
+    return b === 0 ? 'Error: Div by 0' : division(a, b);
+  } else {
+    return 'Error';
+  };
+};
