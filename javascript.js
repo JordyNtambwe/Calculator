@@ -28,7 +28,7 @@ function operate (operator, num1, num2) {
   } else if (operator === '*') {
     return multiplication(a, b);
   } else if (operator === '/') {
-    return b === 0 ? 'Error: Div by 0' : division(a, b);
+    return b === 0 ? 'Cannot divide by 0' : division(a, b);
   } else {
     return 'Error';
   };
