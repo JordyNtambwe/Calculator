@@ -33,3 +33,21 @@ function operate (operator, num1, num2) {
     return 'Error';
   };
 };
+
+
+
+function updateDisplay (value) {
+  const display = document.querySelector('.display');
+  display.textContent = value;
+}
+
+function digitClicked (digit) {
+  if (operator === '') {
+    num1 += digit;
+    updateDisplay(num1);
+  } else {
+    num2 += digit;
+    updateDisplay(num2);
+  };
+};
+
