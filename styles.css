@@ -1,0 +1,50 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.display {
+  font-size: 90px;
+  display: flex;
+  justify-content: flex-end;
+  box-shadow: 4px 6px 15px #8a8a8a;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  padding-right: 30px;
+}
+
+.first-row,
+.second-row,
+.third-row,
+.fourth-row {
+  padding-bottom: 5px;
+}
+
+button {
+  height: 100px;
+  width: 100px;
+  font-size: 25px;
+  border-radius: 20px;
+  box-shadow: 4px 6px 15px #8a8a8a;
+  border: none;
+}
+
+.equal {
+  width: 100%;
+  background-color: rgb(204, 255, 206);
+}
+
+.clear {
+  background-color: rgb(255, 193, 193);
+}
+
+.divide,
+.multiply,
+.add,
+.subtract {
+  background-color: rgb(255, 255, 220);
+}
