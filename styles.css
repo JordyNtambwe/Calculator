@@ -7,6 +7,10 @@ body {
   align-items: center;
 }
 
+.calculator-container {
+width: 420px;
+}
+
 .display {
   font-size: 90px;
   display: flex;
@@ -15,6 +19,7 @@ body {
   margin-bottom: 20px;
   border-radius: 20px;
   padding-right: 30px;
+  overflow: hidden; /* Prevents text from physically leaving the box */
 }
 
 .first-row,
